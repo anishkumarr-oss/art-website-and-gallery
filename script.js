@@ -4,86 +4,108 @@ const paintings = [
         id: 1,
         title: "Portrait Study 1",
         category: "portrait",
-        image: "../anish art/praful sawant 2025/IMG_20250928_112939.jpg",
+        image: "images/IMG_20231128_201018_532.jpg",
         description: "A beautiful portrait capturing emotion and depth"
     },
     {
         id: 2,
         title: "Landscape Dreams",
         category: "landscape",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0057.jpg",
+        image: "images/IMG-20240312-WA0059.jpg",
         description: "Serene landscape painting"
     },
     {
         id: 3,
         title: "Abstract Expression",
         category: "abstract",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0059.jpg",
+        image: "images/IMG-20240312-WA0064.jpg",
         description: "Bold abstract composition"
     },
     {
         id: 4,
         title: "Portrait Study 2",
         category: "portrait",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0060.jpg",
+        image: "images/IMG-20240312-WA0067.jpg",
         description: "Detailed portrait work"
     },
     {
         id: 5,
         title: "Nature's Beauty",
         category: "landscape",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0062.jpg",
+        image: "images/IMG-20240313-WA0026.jpg",
         description: "Capturing nature's essence"
     },
     {
         id: 6,
         title: "Color Explosion",
         category: "abstract",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0063.jpg",
+        image: "images/IMG_20240210_110957_651.jpg",
         description: "Vibrant abstract piece"
     },
     {
         id: 7,
         title: "Portrait Study 3",
         category: "portrait",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0064.jpg",
+        image: "images/IMG20230218131756.jpg",
         description: "Expressive portrait"
     },
     {
         id: 8,
         title: "Mountain View",
         category: "landscape",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0065.jpg",
+        image: "images/IMG20230423222739.jpg",
         description: "Majestic mountain landscape"
     },
     {
         id: 9,
         title: "Abstract Flow",
         category: "abstract",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0066.jpg",
+        image: "images/IMG_20240306_191925_989.jpg",
         description: "Flowing abstract forms"
     },
     {
         id: 10,
         title: "Portrait Study 4",
         category: "portrait",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0074.jpg",
+        image: "images/IMG_20230503_205505_720.jpg",
         description: "Intimate portrait"
     },
     {
         id: 11,
         title: "Sunset Glow",
         category: "landscape",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0075.jpg",
+        image: "images/IMG_20230720_140440_353.jpg",
         description: "Beautiful sunset scene"
     },
     {
         id: 12,
         title: "Abstract Dreams",
         category: "abstract",
-        image: "../anish art/praful sawant 2025/IMG-20250922-WA0076.jpg",
+        image: "images/IMG_20231128_201018_408.jpg",
         description: "Dreamy abstract composition"
-    }
+    },
+    {
+        id: 13,
+        title: "Floral Elegance",
+        category: "landscape",
+        image: "images/IMG_20240311_195913_167.jpg",
+        description: "Beautiful floral composition"
+    },
+    {
+        id: 14,
+        title: "Expressive Strokes",
+        category: "abstract",
+        image: "images/IMG_20240319_125828_012.jpg",
+        description: "Bold abstract with expressive strokes"
+    },
+    {
+        id: 15,
+        title: "Twilight Serenity",
+        category: "landscape",
+        image: "images/IMG_20241228_004241.jpg",
+        description: "Serene twilight landscape"
+    },
+
 ];
 
 // Current lightbox index
@@ -276,7 +298,7 @@ document.addEventListener('DOMContentLoaded', initGallery);
 
 // Add more paintings dynamically from your art folder
 // You can add more entries to the paintings array above
-// The images are referenced from "../anish art/praful sawant 2025/" folder
+// The images are referenced from the "images/" folder
 
 // Function to add more paintings programmatically
 function addPainting(title, category, imagePath, description) {
@@ -292,4 +314,4 @@ function addPainting(title, category, imagePath, description) {
 }
 
 // Example of how to add more paintings:
-// addPainting("New Portrait", "portrait", "../anish art/praful sawant 2025/IMG-20250922-WA0078.jpg", "A new portrait piece");
+// addPainting("New Portrait", "portrait", "images/your-image.jpg", "A new portrait piece");

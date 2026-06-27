@@ -20,7 +20,13 @@ artist-portfolio/
 ├── index.html          # Main HTML structure
 ├── styles.css          # All styling and responsive design
 ├── script.js           # JavaScript functionality
+├── images/             # Your painting images go here
+│   ├── painting1.jpg
+│   ├── painting2.jpg
+│   └── ...
 └── README.md           # This file
+
+
 ```
 
 ## 🚀 Getting Started
@@ -65,7 +71,7 @@ const paintings = [
         id: 1,
         title: "Your Painting Title",
         category: "portrait",  // Options: portrait, landscape, abstract
-        image: "../anish art/praful sawant 2025/your-image.jpg",
+        image: "images/your-image.jpg",
         description: "Description of your painting"
     },
     // Add more paintings...
@@ -80,20 +86,20 @@ At the bottom of `script.js`, use the `addPainting()` function:
 addPainting(
     "New Painting Title",
     "landscape",
-    "../anish art/praful sawant 2025/IMG-20250922-WA0078.jpg",
+    "images/your-image.jpg",
     "Description of the painting"
 );
 ```
 
 ### Image Path Format
 
-Your paintings are located in: `C:\Users\Anish\Desktop\anish art\praful sawant 2025\`
+Your paintings are located in the `images/` folder inside the project.
 
-The relative path from the website folder is: `../anish art/praful sawant 2025/`
+The relative path from the website folder is: `images/`
 
 Example:
 ```javascript
-image: "../anish art/praful sawant 2025/IMG-20250922-WA0057.jpg"
+image: "images/your-image.jpg"
 ```
 
 ## 🎯 Customization Guide
